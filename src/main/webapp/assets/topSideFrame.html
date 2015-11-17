@@ -1,0 +1,79 @@
+
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="dist/img/ramakrishna.jpg" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Ramakrishna Panni</p>
+          
+        </div>
+      </div>
+     
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+         <!--<li class="header">MAIN NAVIGATION</li>-->
+        <li class="active treeview">
+          <a ng-click="removePopWindow()">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span> <!--<i class="fa fa-angle-left pull-right">--></i>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            <span>Add Options</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+         
+	          <ul class="treeview-menu">
+	            <li><a ng-click="popWindowNewUser()" ><i class="fa fa-circle-o"></i> New Member</a></li>
+	            <li><a ng-click="popWindowNewTeamMember();"><i class="fa fa-circle-o"></i> Team Member</a></li>
+	            <li><a ng-click="popWindowNewProject();"><i class="fa fa-circle-o"></i> Project</a></li>
+	            <li><a ng-click="popWindowNewClient();"><i class="fa fa-circle-o"></i> Client</a></li>
+	          </ul>
+        </li>
+       <li class="treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i>
+            <span>Tasks</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Add Task for you</a></li>
+            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Add Task for Team Member</a></li>
+            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Recent Completed Tasks</a></li>
+            <li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Archived Tasks</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i>
+            <span>Leaves</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Leaves By you</a></li>
+            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Leaves By Team Members</a></li>
+            <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Leaves Approved By you</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/calendar.html">
+            <i class="fa fa-calendar"></i> <span>Calendar</span>
+            <small class="label pull-right bg-red">3</small>
+          </a>
+        </li>
+        <li>
+          <a href="pages/mailbox/mailbox.html">
+            <i class="fa fa-envelope"></i> <span>Mailbox</span>
+            <small class="label pull-right bg-yellow">12</small>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
